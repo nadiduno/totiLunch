@@ -15,22 +15,23 @@ async function userData() {
             let nameproduct = data["record"]["TotiLunch"]["0"]["name"]
             let imageproduct = data["record"]["TotiLunch"]["0"]["avatar"]
 
-
             let name = document.createElement('p')
             name.textContent = nameproduct
+            // root.append(name)
 
             let image = document.createElement('img')
-            image.src = imageproduct
-            //Styles CSS
+            // image.classList.add('classImagem');
             image.style.borderRadius = '50%';
             image.style.width = '25%'
             image.style.height = '25%'
+            image.src = imageproduct
+            // root.append(image)
 
-            root.append(divisoria, name, image)
+            root.append(name, image)
         })
         .catch((error) => {
             console.error(error)
         })
 }
 
-// userData()
+userData()
