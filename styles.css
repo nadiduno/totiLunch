@@ -4,11 +4,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #1b1b1b;
+    --color1: #fff;
+    --color2: #000;
+    --color3: #1b1b1b;
+    --color4: #5A4B29;
+    --color5: #FF6914;
+    --color6: #D9D9D9;
+    --color7: #8C8A88;
+    --color8: #6D6D6D;
+
+    background-color: var(--color3);
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 img {
@@ -16,25 +26,25 @@ img {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: transparent;
 }
 
-.img-top {
+.imgTop {
     max-width: 370px;
     height: 25vh;
     margin: 2rem auto 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #5A4B29;
+    border: 3px solid var(--color4);
 }
 
-.img-logo {
+.imgLogo {
     width: 70%;
     padding: 10px;
 }
 
-.container-opc {
+.containerOpc {
     max-width: 500px;
     height: auto;
     display: flex;
@@ -43,7 +53,7 @@ a {
     margin: 0px auto;
 }
 
-.card-opc {
+.cardOpc {
     width: 175px;
     height: 175px;
     border-radius: 15px;
@@ -57,35 +67,45 @@ a {
     align-items: center;
 }
 
-.op-carnes {
+.opCarnes {
     background-image: url('./assets/carnes.jpeg');
 }
 
-.op-massas {
+.linkHover {
+    opacity: 1;
+    color: var(--color2);
+    transition: .3s;
+}
+
+.linkHover:hover {
+    opacity: .7;
+}
+
+.opMassas {
     background-image: url('./assets/massas.jpg');
 }
 
-.op-bebidas {
+.opBebidas {
     background-image: url('./assets/bebidas.jpg');
 }
 
-.op-frios {
+.opFrios {
     background-image: url('./assets/frios.jpg');
 }
 
-.op-sorvetes {
+.opSorvetes {
     background-image: url('./assets/sorvetes.jpg');
 }
 
-.op-sobremesas {
+.opSobremesas {
     background-image: url('./assets/sobremesas.jpg');
 }
 
-.title-opc {
+.titleOpc {
     text-align: center;
     width: 100%;
     background-color: #94949475;
-    color: #fff;
+    color: var(--color1);
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 3rem;
@@ -96,23 +116,18 @@ a {
         font-size: 1rem;
     }
 
-    .container-opc {
+    .containerOpc {
         max-width: 700px;
     }
 
-    .img-logo {
-        width: 60%;
-        padding: 10px;
+    .imgTop {
+        max-width: 35rem;
+        height: 25vh;
     }
 
-    .img-top {
-        max-width: 370px;
-        height: 25vh;
-        margin: 2rem auto 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 3px solid #5A4B29;
+    .img-logo {
+        width: 40%;
+        padding: 0.625 rem;
     }
 
 }
