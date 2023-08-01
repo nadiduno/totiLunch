@@ -29,8 +29,8 @@ Aplicativo front end, de uma lanchonete, feito colaborativamente por um grupo de
 
 # Design
 
-Design de  [Elvin Conopoy](https://www.linkedin.com/in/eefracotor/) - [Figma](https://www.figma.com/file/EYsMdApm8TqzgQpYrA16M3/front-end-colab?type=design&node-id=0-1&mode=design&t=c72pU6knhfrfcYCd-0)
-Adaptações de [Nadi Duno](https://www.linkedin.com/in/nadiduno/) [Figma](https://www.figma.com/file/AYkZ3LlNPh5huIE1FH1Wuh/front-end-colab-(Copy)?type=design&node-id=0-1&mode=design&t=Z9jnlQ01DDN2WkUa-0)
+Design de  [Elvin Conopoy](https://www.linkedin.com/in/eefracotor/) - [Ver Figma](https://www.figma.com/file/EYsMdApm8TqzgQpYrA16M3/front-end-colab?type=design&node-id=0-1&mode=design&t=c72pU6knhfrfcYCd-0)
+Adaptações de [Nadi Duno](https://www.linkedin.com/in/nadiduno/) [Ver Figma](https://www.figma.com/file/AYkZ3LlNPh5huIE1FH1Wuh/front-end-colab-(Copy)?type=design&node-id=0-1&mode=design&t=Z9jnlQ01DDN2WkUa-0)
 
 Mentora [Barbara Nery](https://www.linkedin.com/in/barbarafnery/) | [Toti Diversidade](https://totidiversidade.com.br/) © 2023
 
