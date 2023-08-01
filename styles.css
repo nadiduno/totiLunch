@@ -34,16 +34,16 @@ a {
 .imgTop {
     max-width: 370px;
     height: 25vh;
-    margin: 2rem auto 0px;
+    margin: 1rem auto 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid var(--color4);
 }
 
 .imgLogo {
+    max-width: 30%;
     width: 60%;
-    padding: 10px;
+    padding: 0.25rem;
 }
 
 .containerOpc {
@@ -58,8 +58,8 @@ a {
 .cardOpc {
     width: 175px;
     height: 175px;
-    border-radius: 15px;
-    margin: 10px;
+    border-radius: 14px;
+    margin: 0.625rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,7 +397,6 @@ a {
 
 .finishDetails {
     width: 90%;
-    height: 35.313rem;
     border: 3px solid var(--color4);
     display: block;
     justify-content: center;
@@ -451,18 +450,9 @@ a {
         max-width: 700px;
     }
 
-    .container2 {
+    .container2,
+    .finishDetails {
         margin: 0px auto;
-    }
-
-    .imgTop {
-        max-width: 35rem;
-        height: 25vh;
-    }
-
-    .imgLogo {
-        width: 40%;
-        padding: 0.625 rem;
     }
 
 }
