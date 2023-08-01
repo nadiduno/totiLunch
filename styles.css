@@ -308,7 +308,21 @@ a {
 
 /* *****************CSS Order*****************  */
 
-.orderBox {}
+.orderBox {
+    width: 90%;
+    height: 17.938rem;
+    border-radius: 12px;
+    border: 1px solid var(--color8);
+    background: var(--color3);
+    box-shadow: 5px 5px 4px 0px rgba(252, 252, 252, 0.25);
+
+}
+
+.orderDetails {
+    width: 90%;
+    height: 11.563rem;
+    border: 3px solid var(--color4);
+}
 
 @media screen and (min-width: 769px) {
     body {
