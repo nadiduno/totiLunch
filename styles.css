@@ -61,7 +61,6 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +74,7 @@ a {
     opacity: 1;
     color: var(--color2);
     transition: .3s;
+    cursor: pointer;
 }
 
 .linkHover:hover {
@@ -111,13 +111,210 @@ a {
     line-height: 3rem;
 }
 
+/* *****************CSS cadapio.html***************** */
+.container2 {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    width: 100%;
+    height: 4.438rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--color4);
+    color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.categoryMenu {
+    width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrowBox {
+    margin: .5rem 1rem 0 1rem;
+    width: 16px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titleMenu {
+    color: var(--color2);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.foodBox {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 77px 1fr 84px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(109, 109, 109, 0.50);
+    background: var(--color1);
+    margin: 1.125rem .35rem 0 .35rem;
+    padding: .25rem;
+}
+
+.imgFood {
+    width: 4.813rem;
+    height: 4.688rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imgFull {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.textFood {
+    width: 100%;
+    padding: 0.25rem;
+}
+
+.textFood h3 {
+    color: var(--color5);
+}
+
+.textFood p {
+    font-size: .6rem;
+    margin-top: 0.4rem;
+    color: #6D6D6D;
+}
+
+.infoFood {
+    width: 100%;
+    height: 5.5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.descFood {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--color6);
+    padding: auto .125rem;
+}
+
+.valor {
+    color: var(--color7);
+    text-align: right;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.cardValor {
+    color: var(--color3);
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 1.375rem;
+    height: 1.188rem;
+    background: var(--color6);
+    border-radius: 4px;
+    margin: auto .175rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valorTotal {
+    color: var(--color5);
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.buttoFood {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: .5rem;
+
+}
+
+.buttoSmall {
+    width: 1.563rem;
+    height: 1.563rem;
+    border-radius: 5px;
+    border: 1px solid var(--color8);
+    background: #6D6D6D;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .25rem;
+}
+
+.totalButton {
+    width: 90%;
+    height: 3.125rem;
+    border-radius: 10px;
+    background: var(--color5);
+    color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.875rem;
+}
+
 @media screen and (min-width: 769px) {
     body {
         font-size: 1rem;
     }
 
-    .containerOpc {
+    .containerOpc,
+    .container2 {
         max-width: 700px;
+    }
+
+    .container2 {
+        margin: 0px auto;
     }
 
     .imgTop {
@@ -125,7 +322,7 @@ a {
         height: 25vh;
     }
 
-    .img-logo {
+    .imgLogo {
         width: 40%;
         padding: 0.625 rem;
     }
