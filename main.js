@@ -4,6 +4,10 @@ function goMenu(id) {
 function goOrder() {
     window.location.href = "order.html"
 }
+function goFinish() {
+    window.location.href = "finish.html"
+}
+
 async function userData() {
     var urlApi = 'https://api.jsonbin.io/v3/b/64c745978e4aa6225ec8162c'
 
