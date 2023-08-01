@@ -160,10 +160,15 @@ a {
 }
 
 .titleMenu {
+    width: 100%;
+    background: var(--color6);
     color: var(--color2);
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foodBox {
@@ -312,15 +317,82 @@ a {
     height: 17.938rem;
     border-radius: 12px;
     border: 1px solid var(--color8);
-    background: var(--color3);
+    background: rgba(255, 255, 255, 0.05);
     box-shadow: 5px 5px 4px 0px rgba(252, 252, 252, 0.25);
+    margin: 1.25rem;
+    font-size: 1.5rem;
+}
 
+.listOrder {
+    width: 100%;
+    padding: 2rem;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.125rem;
+}
+
+
+.payment strong {
+    color: var(--color5);
+    font-size: 1.875rem;
 }
 
 .orderDetails {
     width: 90%;
     height: 11.563rem;
     border: 3px solid var(--color4);
+    padding: 1.375rem;
+}
+
+.details1 {
+    padding: .5rem;
+    margin-bottom: 2.125rem;
+}
+
+.bordBall {
+    width: 52px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2px;
+    margin-top: .5rem;
+}
+
+.ball {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: var(--color1);
+}
+
+.option {
+    font-size: .75rem;
+    color: var(--color8);
+}
+
+.optionPay {
+    display: inline-flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.optionPay2 {
+    display: flex;
+    gap: .25rem;
+}
+
+.square {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--color1);
 }
 
 .finishDetails {
