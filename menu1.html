@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title></title>
 </head>
@@ -29,16 +28,12 @@
         </div>
         <div class="menu">
             <div class="categoryMenu">
-                <div class="arrowBox linkHover">
-                    <a href="#">
-                        <img src="./assets/arrow1.png" alt="">
-                    </a>
+                <div class="arrowBox linkHover" onclick="goMenu(6)">
+                    <img src="./assets/arrow1.png" alt="">
                 </div>
                 <h1 class="titleMenu">Carnes</h1>
-                <div class="arrowBox linkHover">
-                    <a href="#">
-                        <img src="./assets/arrow2.png" alt="">
-                    </a>
+                <div class="arrowBox linkHover" onclick="goMenu(2)">
+                    <img src="./assets/arrow2.png" alt="">
                 </div>
             </div>
             <!-- Card 1 -->
@@ -232,11 +227,9 @@
             </div>
 
         </div>
-        <div class="totalButton linkHoverE">
-            <strong>Total</strong>
-        </div>
+        <button class="totalButton linkHover" onclick="goOrder()">Fazer Pedido</button>
     </div>
-
+    <script src="main.js"></script>
 </body>
 
 </html>

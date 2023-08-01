@@ -294,13 +294,14 @@ a {
 .totalButton {
     width: 90%;
     height: 3.125rem;
-    border-radius: 10px;
+    border-radius: 8px;
     background: var(--color5);
     color: var(--color1);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1.875rem;
+    border: 1px solid transparent;
 }
 
 @media screen and (min-width: 769px) {
